@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 * {
     margin:0;
     padding:0;
 }
+
 
 
 
@@ -13,6 +16,7 @@ header{
     background-color: #5d5b5b;
     box-sizing:border-box;
     margin-top:10px;
+    width:100%;
 }
 
 .stoup-logo {
@@ -83,10 +87,16 @@ input:focus {
   }
 
 .personal{
-    margin-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex;
-    width: 30px;
+    margin-left: auto;
+    margin-right:30px;
+    align-items: flex-end;
+    min-width: 30px;
     height: 30px;
+    gap:10px;
+    
    
 }
 
@@ -155,10 +165,13 @@ input:focus {
 
 body{
     background-color: #cccccc;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .sec1 {
-    height: 68vh;
+    min-height: 68vh;
     background-color: #cccccc;
     display: flex;
     justify-content: center;
@@ -176,7 +189,7 @@ article {
     display: flex;
     align-items: flex-end;
     color: #000000;
-    font-size: 50%;
+    font-size: 75%;
     transition: 1s;
     
 }
@@ -234,12 +247,18 @@ article:hover {
 
 
 
+
 /* footer ----- below */
 
 
 
 
 footer{
+    min-height: 50px;
+    background-color: #5d5b5b;
     display: flex;
-    justify-content: flex-end;
+    
+    color: #ffffff;
+    display: grid;
+    gap: 5px;
 }

@@ -35,7 +35,7 @@ header{
     width: 300px;
     margin-top: 10px; 
     margin-bottom:  0;
-    border: solid blue 2px;
+    border: solid #0A2472 2px;
     background-color: white;
 
 }
@@ -246,10 +246,15 @@ article:hover {
 }
 
 .link{
-    color: blue;
+    color: black;
     text-decoration: 1;
     text-decoration-line:none;
     font-weight: bolder;
+}
+
+.link-price{
+    color:#000000;
+    text-decoration: 0;
 }
 
 

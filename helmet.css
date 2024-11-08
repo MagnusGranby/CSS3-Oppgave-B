@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: #5d5b5b;
+    box-sizing:border-box;
+    margin-top:10px;
+    width:100%;
+}
+
+.stoup-logo {
+    display: flex;
+    width:100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+
+.search-box{
+    display: flex;
+    height: 30px;
+    width: 300px;
+    margin-top: 10px; 
+    margin-bottom:  0;
+    border: solid blue 2px;
+    background-color: white;
+
+}
+
+.search-for-product{
+    padding: 0;
+    display: flex;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left: 10px;
+
+}
+
+.search-logo{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+}
+
+.search-field{
+    display: flex;
+    border: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+input:focus {
+    outline:none;
+}
+
+.search-for-product input[type=text] {
+    border: none;
+    font-size: 17px;
+  }
+
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff
+  }
+  
+  .personal-border{
+    flex-direction: row;
+    display: flex;
+    border: solid #0A2472 2px
+  }
+
+.personal{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right:30px;
+    align-items: flex-end;
+    min-width: 30px;
+    height: 30px;
+    gap:10px;
+    
+   
+}
+
+.join{
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+}
+
+.profile{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.cart{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.tabs{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.helmets{
+    display: flex;
+    margin-left: 50px;
+}
+
+.chestplates{
+    display: flex;
+    margin-left: 50px;
+}
+
+.leggings{
+    display: flex;
+    margin-left: 50px;
+}
+
+.gauntlets{
+    display: flex;
+    margin-left: 50px;
+}
+
+.swords{
+    display: flex;
+    margin-left: 50px;
+}
+
+.shields{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+
+
+

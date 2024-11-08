@@ -80,6 +80,7 @@ input:focus {
     flex-direction: column;
     color: #ffffff
   }
+  
   .personal-border{
     flex-direction: row;
     display: flex;
